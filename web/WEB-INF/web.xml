@@ -47,4 +47,14 @@
         <servlet-name>DeleteCokkiesServlet</servlet-name><!-- указываем наш сервлет-->
         <url-pattern>/delete-cookies</url-pattern> <!-- указываем наш URL по которому хотим пройти в браузере, по этому URL будет проходить на наш сервлет-->
     </servlet-mapping>
+    <servlet>
+
+        <servlet-name>LibraryServlet</servlet-name>
+        <servlet-class>LibraryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping> <!-- указываем servlet-mapping-->
+        <servlet-name>LibraryServlet</servlet-name><!-- указываем наш сервлет-->
+        <url-pattern>/library</url-pattern> <!-- указываем наш URL по которому хотим пройти в браузере, по этому URL будет проходить на наш сервлет-->
+    </servlet-mapping>
+
 </web-app>
